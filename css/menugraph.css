@@ -1,0 +1,139 @@
+.k_UL { 
+    margin:0;
+    *margin-left:10px;
+    padding:0; 
+    list-style-type:none; 
+    width: 204px; 
+    border-bottom:1px solid #D6D6D6;
+    position: relative;
+
+}
+.DIV { 
+    display:none;
+    background-color:#FFFFFF;
+    border:1px solid #DFDFDD;
+    cursor:default;
+    height:243px;
+    padding:5px;
+    position:absolute;
+    top:0px;
+    left:188px;
+    width:540px;
+    z-index:100000;
+    border-radius:0 6px 6px 6px;
+}
+.DIVcategory {
+    float:left;
+    width:180px;
+    display: block;
+    height: 242px;
+}
+.midline {
+    float:left;
+}
+.DIVcategory .all {
+    padding:0;
+    margin-top:20px;
+}
+
+.DIVcategory span {
+    padding:1px 0;
+    display:inline-block;
+}
+.DIVcategory span a, span a:hover,
+.DIVcategory a, .DIVcategory a:hover, .DIVcategory a:visited
+{
+    text-decoration:none;
+    color:#000000 !important;
+}
+.DIVcategory .all a, .all a:hover{
+    color:#FF9900 !important;
+    text-decoration:none
+}
+.DIVbeyaz {
+    background-color:#FFFFFF;
+    display:none;
+    height:24px;
+    left:188px;
+    position:absolute;
+    top:1px;
+    width:3px;
+    z-index:1000001;
+}
+.pList {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.pList li {
+    float:left;
+    text-align:center;
+    padding:9px 11px;
+    background: #fff;
+}
+.mr1
+{
+    margin-right: 1px;    
+}
+.mb1
+{
+    margin-bottom:1px;
+}
+.pList li a, .pList li a:hover{
+    text-decoration:none;
+    color:#000000 !important;
+}
+.productsList {
+    float:left;
+    position:relative;
+    background: #E1E1E1;
+}
+.k_item , .k_item-active , .k_item-hover , .tum
+{
+
+    width:auto;
+    height: 18px;
+    font: 11px Tahoma;
+    background: url("../images/menubgDeg.jpg") repeat scroll 0 0 transparent;
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    padding: 6px 0 2px 10px;
+    cursor:normal;
+    cursor:pointer;
+    position:relative;
+}
+
+
+
+.k_item-active
+{
+    background: url("../images/menubgDeg.jpg") repeat scroll 0 -26px transparent;
+}
+
+.tum
+{
+    background: url(../images/menubgDeg.jpg) repeat scroll 0 -78px transparent;
+}
+
+.k_item-text , .k_item-text-hover 
+{
+    text-decoration:none;
+    color: #333333;
+}
+.k_item a,
+.k_item a:visited
+{
+    display: block;
+    color:#3d3d3d;
+}
+.k_item-active a,
+.k_item-active a:visited,
+.k_item-active a:hover
+{
+    color:#ff7e00;
+}
+.k_item-text-hover 
+{
+    color:#ff7e00
+}

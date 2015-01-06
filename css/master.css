@@ -1,0 +1,89 @@
+
+.dropMenuSubCategory ul {
+    padding: 0;
+    margin: 0;
+}
+.dropMenuSubCategory li{
+    border-bottom: 1px dotted #AAAAAA;
+    margin: 0 10px 0 0;
+    width: 188px;
+}
+.dropMenuSubCategory li:last-child {
+    border-bottom: medium none !important;
+}
+.dropMenuSubCategory{
+    position:absolute;
+    top:45px;
+    padding:10px 0 0 10px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-top:0;
+    display:none;
+    z-index:9999999
+    right: auto;
+    width: 200px;
+}
+.dropMenuSubCategory li ul li ul{
+    display: none;
+}
+.dropMenuSubCategory li ul {
+    padding-left: 7px !important;
+}
+.dropMenuSubCategory a {
+    border:0 !important;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.dropMenuSubCategory li a {
+    color: #666666;
+    display: block !important;
+    padding: 6px 0 6px 6px !important;
+}
+.dropMenuSubCategory li a:hover {
+     background: none !important;
+}
+.dropMenuSubCategory ul li ul li a {
+    background: url("../images/right_arrow.png") no-repeat scroll 15px 50% transparent !important;
+    padding: 6px 0 6px 30px !important;
+}
+.dropMenuSubCategory ul li ul li a:hover {
+    background: url("../images/right_arrow.png") no-repeat scroll 15px 50% transparent !important;
+}
+
+/**
+* 
+* 
+* Click Menu 
+* 
+* **/
+
+.clickMenu ul li a{
+     background-image: url("../images/menu_arrows.png");
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+    background-color:#fff;
+    border-radius: 0 0 0 0;
+    color: #000000;
+    margin: 0;
+    padding: 5px 5px 5px 20px;
+    border-bottom:1px dotted #efefef;
+    display: block;
+}
+.clickMenu  ul li a:hover{
+    background: none repeat scroll 0 0 #000;
+    border-radius: 0 0 0 0;
+    color: #fff;
+}
+.clickMenu ul li ul {
+    display: none;
+    padding-left: 10px;
+}
+.clickMenu li.current > ul {
+    display: block;
+}
+.contUL {
+    margin-top:15px;
+}
